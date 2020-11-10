@@ -12,8 +12,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.sql.SQLOutput;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class testCases_1_to_4 {
@@ -72,22 +72,59 @@ public class testCases_1_to_4 {
 
     @And("user selects sort-by dropdown as option (.*)")
     public void userSelectsSortByName(String sortByOption) throws IOException {
+
+        // generate the list of products
+        List<WebElement> mobiles = driver.findElements(By.xpath("//h2[@class='product-name']/a"));
+        List mobileList = new ArrayList<>();
+        for (WebElement list : mobiles) {
+            mobileList.add(list.getText());
+        }
+
+        System.out.println("Mobile list before sorting: " + mobileList);
+
+        // generate list of options from dropdown menu
         WebElement option = driver.findElement(By.xpath("//body/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/select[1]"));
         Select list = new Select(option);
-
         List<String> optionList = new ArrayList<>();
-
         for (WebElement opt : list.getOptions()) {
             optionList.add(opt.getText());
         }
-
         System.out.println("Sort-by options to choose from: " + optionList);
 
+        List controlList = new ArrayList<>();
+        controlList.addAll(mobileList);
+
+        System.out.println("Control list before sorting: " + controlList);
+
+        // choosing the sort by -name- option
         list.selectByVisibleText(sortByOption);
 
-        //verify sorted-by name option by taking a screenshot
+        // creating list of sorted products
+        List<WebElement> mobilesSorted = driver.findElements(By.xpath("//h2[@class='product-name']/a"));
+        List mobileListSort = new ArrayList<>();
+        for (WebElement listSort : mobilesSorted) {
+            mobileListSort.add(listSort.getText());
+        }
+        System.out.println("Mobile list sorted: " + mobileListSort);
+
+        // sorting the control list
+        Collections.sort(controlList);
+
+        System.out.println("Control list sorted: " + controlList);
+
+        // verify sorted-by name option by comparing mobilelist and controllist
+        if(controlList.equals(mobileListSort)){
+            System.out.println("Product list sorted");
+        }else {
+            System.out.println("Product list not sorted");
+        }
+
+
+        // verify sorted-by name option by taking a screenshot
         File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(file, new File("./screenshot/order.png"));
+        FileUtils.copyFile(file, new
+
+                File("./screenshot/order.png"));
     }
 
     @And("user notes product price from the list")
