@@ -8,6 +8,8 @@ Project include 4 test cases:
 * Test case 3: verify if it's possible to add more products to cart than product available in 
 * Test case 4: verify if tt's possible to compare two products
 
+Project performs automation tests built with BDD framework
+
 ## Technologies
 * Java
 * Selenium WebDriver
