@@ -91,6 +91,7 @@ public class testCases_1_to_4 {
         }
         System.out.println("Sort-by options to choose from: " + optionList);
 
+        // creating controlList as a mobileList copy
         List controlList = new ArrayList<>();
         controlList.addAll(mobileList);
 
