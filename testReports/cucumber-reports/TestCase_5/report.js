@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 4,
+  "line": 3,
   "name": "user creates an account and shares wishlist",
   "description": "",
   "id": "performing-test-where-user-creates-an-account-and-share-wishlist;user-creates-an-account-and-shares-wishlist",
@@ -15,77 +15,77 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 6,
+  "line": 5,
   "name": "user is on the home page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
+  "line": 6,
   "name": "user clicks my account link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "user goes to create an account page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "user enters first name \u003cfirstName\u003e, last name \u003clastName\u003e, email \u003cemail\u003e and password \u003cpassword\u003e",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "user clicks to register",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "user sees the following successful registry message Welcome, \u003cfirstName\u003e \u003clastName\u003e!",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "user clicks TV menu link",
   "keyword": "When "
 });
 formatter.step({
-  "line": 13,
+  "line": 12,
   "name": "user goes to product Samsung LCD page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 13,
   "name": "user add product to wish list",
   "keyword": "And "
 });
 formatter.step({
-  "line": 15,
+  "line": 14,
   "name": "user sends the wishlist to email address pepe@pepe.com",
   "keyword": "And "
 });
 formatter.step({
-  "line": 16,
+  "line": 15,
   "name": "user enters the following message Hello, do you find it interesting?",
   "keyword": "And "
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "user clicks to share wishlist",
   "keyword": "And "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "user sees successfully share message Your Wishlist has been shared.",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "user closes the browser",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 21,
+  "line": 20,
   "name": "",
   "description": "",
   "id": "performing-test-where-user-creates-an-account-and-share-wishlist;user-creates-an-account-and-shares-wishlist;",
@@ -97,24 +97,24 @@ formatter.examples({
         "email",
         "password"
       ],
-      "line": 22,
+      "line": 21,
       "id": "performing-test-where-user-creates-an-account-and-share-wishlist;user-creates-an-account-and-shares-wishlist;;1"
     },
     {
       "cells": [
-        "Joseph",
-        "Peck",
-        "peck@gmail.com",
-        "peckisback"
+        "Salt",
+        "Pepper",
+        "pepper@gmail.com",
+        "pepper"
       ],
-      "line": 23,
+      "line": 22,
       "id": "performing-test-where-user-creates-an-account-and-share-wishlist;user-creates-an-account-and-shares-wishlist;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 23,
+  "line": 22,
   "name": "user creates an account and shares wishlist",
   "description": "",
   "id": "performing-test-where-user-creates-an-account-and-share-wishlist;user-creates-an-account-and-shares-wishlist;;2",
@@ -122,23 +122,23 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 6,
+  "line": 5,
   "name": "user is on the home page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
+  "line": 6,
   "name": "user clicks my account link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "user goes to create an account page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
-  "name": "user enters first name Joseph, last name Peck, email peck@gmail.com and password peckisback",
+  "line": 8,
+  "name": "user enters first name Salt, last name Pepper, email pepper@gmail.com and password pepper",
   "matchedColumns": [
     0,
     1,
@@ -148,13 +148,13 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
+  "line": 9,
   "name": "user clicks to register",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
-  "name": "user sees the following successful registry message Welcome, Joseph Peck!",
+  "line": 10,
+  "name": "user sees the following successful registry message Welcome, Salt Pepper!",
   "matchedColumns": [
     0,
     1
@@ -162,42 +162,42 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "user clicks TV menu link",
   "keyword": "When "
 });
 formatter.step({
-  "line": 13,
+  "line": 12,
   "name": "user goes to product Samsung LCD page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 13,
   "name": "user add product to wish list",
   "keyword": "And "
 });
 formatter.step({
-  "line": 15,
+  "line": 14,
   "name": "user sends the wishlist to email address pepe@pepe.com",
   "keyword": "And "
 });
 formatter.step({
-  "line": 16,
+  "line": 15,
   "name": "user enters the following message Hello, do you find it interesting?",
   "keyword": "And "
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "user clicks to share wishlist",
   "keyword": "And "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "user sees successfully share message Your Wishlist has been shared.",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "user closes the browser",
   "keyword": "And "
 });
@@ -205,53 +205,53 @@ formatter.match({
   "location": "testCase_5.userIsOnTheHomePage()"
 });
 formatter.result({
-  "duration": 14187823206,
+  "duration": 35795537087,
   "status": "passed"
 });
 formatter.match({
   "location": "testCase_5.userClicksMyAccountLink()"
 });
 formatter.result({
-  "duration": 6035093114,
+  "duration": 16034936340,
   "status": "passed"
 });
 formatter.match({
   "location": "testCase_5.userGoesToCreateAccountPage()"
 });
 formatter.result({
-  "duration": 12024639862,
+  "duration": 31377102077,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Joseph",
+      "val": "Salt",
       "offset": 23
     },
     {
-      "val": "Peck",
-      "offset": 41
+      "val": "Pepper",
+      "offset": 39
     },
     {
-      "val": "peck@gmail.com",
+      "val": "pepper@gmail.com",
       "offset": 53
     },
     {
-      "val": "peckisback",
-      "offset": 81
+      "val": "pepper",
+      "offset": 83
     }
   ],
   "location": "testCase_5.userEntersUserInformation(String,String,String,String)"
 });
 formatter.result({
-  "duration": 246046978,
+  "duration": 272934618,
   "status": "passed"
 });
 formatter.match({
   "location": "testCase_5.userClicksToRegister()"
 });
 formatter.result({
-  "duration": 16058321102,
+  "duration": 25549556069,
   "status": "passed"
 });
 formatter.match({
@@ -261,12 +261,12 @@ formatter.match({
       "offset": 52
     },
     {
-      "val": "Joseph",
+      "val": "Salt",
       "offset": 61
     },
     {
-      "val": "Peck!",
-      "offset": 68
+      "val": "Pepper!",
+      "offset": 66
     },
     {
       "val": "",
@@ -276,14 +276,14 @@ formatter.match({
   "location": "testCase_5.userSees(String,String,String,String)"
 });
 formatter.result({
-  "duration": 49559436,
+  "duration": 64615363,
   "status": "passed"
 });
 formatter.match({
   "location": "testCase_5.uerClicksTVMenuLink()"
 });
 formatter.result({
-  "duration": 8495243336,
+  "duration": 35565966047,
   "status": "passed"
 });
 formatter.match({
@@ -296,14 +296,14 @@ formatter.match({
   "location": "testCase_5.userAddsProductToWishList(String)"
 });
 formatter.result({
-  "duration": 8550319373,
+  "duration": 15367428630,
   "status": "passed"
 });
 formatter.match({
   "location": "testCase_5.userAddsProductToWishlist()"
 });
 formatter.result({
-  "duration": 11098972088,
+  "duration": 15746641332,
   "status": "passed"
 });
 formatter.match({
@@ -316,7 +316,7 @@ formatter.match({
   "location": "testCase_5.userSharesWishList(String)"
 });
 formatter.result({
-  "duration": 7482737094,
+  "duration": 10164488999,
   "status": "passed"
 });
 formatter.match({
@@ -329,14 +329,14 @@ formatter.match({
   "location": "testCase_5.userEntersMessage(String)"
 });
 formatter.result({
-  "duration": 73642824,
+  "duration": 72453834,
   "status": "passed"
 });
 formatter.match({
   "location": "testCase_5.userClicksShareWishlist()"
 });
 formatter.result({
-  "duration": 10311011828,
+  "duration": 22670539155,
   "status": "passed"
 });
 formatter.match({
@@ -349,14 +349,14 @@ formatter.match({
   "location": "testCase_5.userSeesSuccessfullyShareMessage(String)"
 });
 formatter.result({
-  "duration": 95245978,
+  "duration": 90783345,
   "status": "passed"
 });
 formatter.match({
   "location": "testCase_5.userClosesTheBrowser()"
 });
 formatter.result({
-  "duration": 811456268,
+  "duration": 544915644,
   "status": "passed"
 });
 });

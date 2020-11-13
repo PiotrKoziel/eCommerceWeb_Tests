@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
 import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -125,7 +124,7 @@ public class testCases_1_to_4 {
         File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(file, new
 
-                File("./screenshot/order.png"));
+                File("./screenshot/sortedBy.png"));
     }
 
     @And("user notes product price from the list")

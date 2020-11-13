@@ -18,5 +18,5 @@ Feature:  performing test where user creates an account and share wishlist
     And     user closes the browser
 
     Examples:
-      | firstName | lastName | email          | password   |
-      | Joseph    | Peck     | peck@gmail.com | peckisback |
+      | firstName   | lastName      | email               | password    |
+      | Salt        | Pepper        | peppers@gmail.com    | peppers      |

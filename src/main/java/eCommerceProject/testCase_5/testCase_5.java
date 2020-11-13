@@ -83,7 +83,7 @@ public class testCase_5 {
         WebElement emailInput = driver.findElement(By.id("email_address"));
         if (emailInput.isEnabled()) {
             emailInput.clear();
-            emailInput.sendKeys(System.currentTimeMillis() + email);
+            emailInput.sendKeys(email); // user System.currentTimeMillis() in order to register under different email
         } else {
             System.out.println("Email address box is disabled");
         }
