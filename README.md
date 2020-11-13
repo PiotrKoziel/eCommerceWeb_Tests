@@ -1,7 +1,7 @@
 # eCommerceProject
 
 ## General info
-Project includes 5 test cases:
+Project includes 6 test cases:
 
 * Test case 1: verify if products listed on product age can be sorted by -name-
 * Test case 2: verify if the cost of the product from product list abd detail page are equal
