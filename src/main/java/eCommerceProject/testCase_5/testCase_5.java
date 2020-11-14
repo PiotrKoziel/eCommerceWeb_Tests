@@ -134,7 +134,7 @@ public class testCase_5 {
     }
 
     @And("user goes to product (.*) page")
-    public void userAddsProductToWishList(String productLg){
+    public void userAddsProductToWishList(String productTv){
         for (String windowId : driver.getWindowHandles()) {
             driver.switchTo().window(windowId);
         }
@@ -144,7 +144,7 @@ public class testCase_5 {
         for (WebElement product : products) {
             System.out.println(product.getAttribute("title"));
 
-            if (product.getAttribute("title").equals(productLg)) {
+            if (product.getAttribute("title").equals(productTv)) {
                 product.click();
             }
         }
