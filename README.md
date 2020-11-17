@@ -11,10 +11,10 @@ Project includes 6 test cases:
 * Test case 6: verify if user is able to purchase the product from wish list 
 * Test case 7: verify if discount code works correctly
 
-Project performs automation tests built with -> BDD framework -> Page Object Pattern -> JUnit
 
 ## Technologies
 * Java
 * Selenium WebDriver
 * Cucumber
 * Page Factory
+* JUnit
