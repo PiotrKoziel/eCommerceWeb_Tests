@@ -8,9 +8,10 @@ Project includes 6 test cases:
 * Test case 3: verify if it's possible to add more products to cart than product available in 
 * Test case 4: verify if tt's possible to compare two products
 * Test case 5: verify if it's possible to create an account and share wishlist to other people using email
-* Test case 6: verify if user is able to purchase the product from wish list  
+* Test case 6: verify if user is able to purchase the product from wish list 
+* Test case 7: verify if discount code works correctly
 
-Project performs automation tests built with BDD framework and Page Object Pattern
+Project performs automation tests built with -> BDD framework -> Page Object Pattern -> JUnit
 
 ## Technologies
 * Java
