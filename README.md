@@ -18,3 +18,6 @@ Project includes 7 test cases:
 * Cucumber
 * Page Factory
 * JUnit
+
+
+Author: Piotr Kozieł
